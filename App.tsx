@@ -25,19 +25,19 @@ import {
   ExperienceItem,
   KodaikanalLandmark,
 } from './src/data/resort';
-import { MountainHero3D } from './components/3d/MountainHero3D';
-import { AboutMountain3D } from './components/3d/AboutMountain3D';
-import { RoomDepthViewer3D } from './components/3d/RoomDepthViewer3D';
-import { ExperienceVisualizer3D } from './components/3d/ExperienceVisualizer3D';
-import { KodaikanalMap3D } from './components/3d/KodaikanalMap3D';
-import { CustomCursor } from './components/ui/CustomCursor';
-import { LoadingScreen } from './components/ui/LoadingScreen';
-import { Navbar, NavSectionId } from './components/navigation/Navbar';
-import { GallerySection } from './components/gallery/GallerySection';
-import { BookingSection } from './components/booking/BookingSection';
-import { ContactSection } from './components/contact/ContactSection';
-import { Footer } from './components/navigation/Footer';
-import { AdminPortal } from './components/admin/AdminPortal';
+import { MountainHero3D } from './src/components/3d/MountainHero3D';
+import { AboutMountain3D } from './src/components/3d/AboutMountain3D';
+import { RoomDepthViewer3D } from './src/components/3d/RoomDepthViewer3D';
+import { ExperienceVisualizer3D } from './src/components/3d/ExperienceVisualizer3D';
+import { KodaikanalMap3D } from './src/components/3d/KodaikanalMap3D';
+import { CustomCursor } from './src/components/ui/CustomCursor';
+import { LoadingScreen } from './src/components/ui/LoadingScreen';
+import { Navbar, NavSectionId } from './src/components/navigation/Navbar';
+import { GallerySection } from './src/components/gallery/GallerySection';
+import { BookingSection } from './src/components/booking/BookingSection';
+import { ContactSection } from './src/components/contact/ContactSection';
+import { Footer } from './src/components/navigation/Footer';
+import { AdminPortal } from './src/components/admin/AdminPortal';
 
 // ============================================================================
 // GLOBAL ERROR BOUNDARY
