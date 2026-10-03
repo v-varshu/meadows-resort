@@ -24,7 +24,7 @@ import {
   GalleryItemData,
   ExperienceItem,
   KodaikanalLandmark,
-} from './data/resort';
+} from './src/data/resort';
 import { MountainHero3D } from './components/3d/MountainHero3D';
 import { AboutMountain3D } from './components/3d/AboutMountain3D';
 import { RoomDepthViewer3D } from './components/3d/RoomDepthViewer3D';
