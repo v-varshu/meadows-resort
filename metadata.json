@@ -1,0 +1,6 @@
+{
+  "name": "The Meadows Resort Kodaikanal",
+  "description": "The Meadows Resort in Kodaikanal — peaceful mountain surroundings, comfortable accommodation, dining and nature-focused experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

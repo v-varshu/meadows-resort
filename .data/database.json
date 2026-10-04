@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "name": "Resort Sanctuary Administrator",
+      "email": "admin@themeadowskodaikanal.com",
+      "passwordHash": "7219169580e0d3dc19bbf42ad6a21dadbf4534cc318ceecc928a6b38f68cbfd1511a64414f67b93ec75e5cb480b398fc950cf66c5d41a5c48488f47b2f48c706",
+      "salt": "d8e32f31f3279ee12f23ee9f95f05fe4",
+      "role": "ADMIN",
+      "createdAt": "2026-10-03T15:58:22.727Z",
+      "updatedAt": "2026-10-03T15:58:22.727Z"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room-quadruple-balcony",
+      "name": "Quadruple Room with Balcony",
+      "slug": "quadruple-room-with-balcony",
+      "description": "Designed for group and family retreats, the Quadruple Room with Balcony opens directly onto Kodaikanal’s cool mountain air and drifting valley mist. Crafted with natural timber textures and warm ambient illumination for peaceful mountain living.",
+      "images": [
+        "/api/asset-proxy/quadruple-balcony"
+      ],
+      "status": "ACTIVE",
+      "active": true,
+      "createdAt": "2024-06-01T00:00:00.000Z",
+      "updatedAt": "2026-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "room-economy-quadruple",
+      "name": "Economy Quadruple Room",
+      "slug": "economy-quadruple-room",
+      "description": "A welcoming and practical haven for four guests seeking tranquil mountain comfort in Kodaikanal. Surrounded by quiet resort grounds and calm natural acoustics, offering essential relaxation after exploring the hills.",
+      "images": [
+        "/api/asset-proxy/economy-quadruple"
+      ],
+      "status": "ACTIVE",
+      "active": true,
+      "createdAt": "2024-06-01T00:00:00.000Z",
+      "updatedAt": "2026-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "room-standard-family",
+      "name": "Standard Family Room",
+      "slug": "standard-family-room",
+      "description": "Crafted for unhurried family time in the hills, the Standard Family Room pairs warm interior finishes with restful privacy. Enjoy seamless access to the resort garden, indoor play area, and evening fireplace gatherings.",
+      "images": [
+        "/api/asset-proxy/standard-family"
+      ],
+      "status": "ACTIVE",
+      "active": true,
+      "createdAt": "2024-06-01T00:00:00.000Z",
+      "updatedAt": "2026-01-15T00:00:00.000Z"
+    }
+  ],
+  "gallery": [],
+  "bookings": [],
+  "contacts": []
+}
