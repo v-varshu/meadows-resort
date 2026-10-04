@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --obsidian: #050708;
+    --midnight-forest: #071916;
+    --deep-emerald: #092B25;
+    --evergreen: #123C32;
+    --moss: #526B52;
+    --sage: #81957A;
+    --mountain-blue: #526F7A;
+    --mist: #C5D1D0;
+    --warm-ivory: #F2E9D8;
+    --pearl: #E7E1D5;
+    --champagne-gold: #D4B47A;
+    --antique-gold: #A88752;
+    --burnt-amber: #C66D3D;
+    --copper: #9C5235;
+  }
+
+  html {
+    background-color: #050708;
+    color: #F2E9D8;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, .font-serif-display {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    text-wrap: balance;
+  }
+
+  .font-mono-tabular {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050708;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #123C32;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4B47A;
+}
+
+/* Reduced motion compliance */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
